@@ -47,6 +47,7 @@
 		07EE81E1215B83C600AFDD8F /* chartTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = chartTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		07EE81E5215B83C600AFDD8F /* chartTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chartTestUITests.swift; sourceTree = "<group>"; };
 		07EE81E7215B83C600AFDD8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07EE81F3215EACCC00AFDD8F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		2941A360DD3754552632248E /* Pods_chartTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_chartTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		659782F2026A7DDF46C42B9F /* Pods-chartTestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-chartTestUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-chartTestUITests/Pods-chartTestUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		7EE7311B81EF5A789D0A1188 /* Pods-chartTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-chartTestTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-chartTestTests/Pods-chartTestTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -89,6 +90,7 @@
 		07EE81BD215B83C500AFDD8F = {
 			isa = PBXGroup;
 			children = (
+				07EE81F3215EACCC00AFDD8F /* README.md */,
 				07EE81C8215B83C500AFDD8F /* chartTest */,
 				07EE81D9215B83C600AFDD8F /* chartTestTests */,
 				07EE81E4215B83C600AFDD8F /* chartTestUITests */,
@@ -296,15 +298,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-chartTestUITests-checkManifestLockResult.txt",
 			);
@@ -318,15 +316,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-chartTestTests-checkManifestLockResult.txt",
 			);
@@ -340,15 +334,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-chartTest-checkManifestLockResult.txt",
 			);
@@ -362,15 +352,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-chartTest/Pods-chartTest-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
 			);
